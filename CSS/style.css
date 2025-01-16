@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 20px;
+    gap: 3rem;
+    background-color: #f3f3f3;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.inputs {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 50%;
+}
+
+.notes-input {
+    padding: 10px;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: inset 0 0 10px #000, 0 0 10px #000;
+}
+
+.notes-input:focus {
+    outline: none
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    box-shadow: inset 0 0 10px #000, 0 0 10px #000;
+    transition: 0.3s;
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+.notes-container {
+    /* border: 2px solid black; */
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%
+}
+
+.notes {
+    /* border: 2px solid black; */
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: inset 0 0 10px #000, 0 0 10px #000;
+    max-width: 80%;
+    word-wrap: break-word;
+}
+
+.note {
+    font-size: 20px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    max-width: 80%;
+    
+}
+
+.edit-note {
+    padding: 10px;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: inset 0 0 10px #000;
+}
+
+.edit-note:focus {
+    outline: none;
+}
