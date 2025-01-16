@@ -1,0 +1,39 @@
+h1 {
+  font-size: 3rem;
+}
+
+.inputs {
+  gap: 1rem;
+  width: 100%;
+  flex-direction: column;
+}
+
+.notes-input {
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.btn {
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.notes-container {
+  gap: 5px;
+}
+
+.notes {
+  gap: 10px;
+  max-width: 100%;
+  flex-direction: column;
+}
+
+.note {
+  font-size: 16px;
+}
+
+.edit-note {
+  padding: 5px;
+  font-size: 16px;
+}
